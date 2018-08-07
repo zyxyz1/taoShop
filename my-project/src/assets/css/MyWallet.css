@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  font-family: SimHei;
+}
+.MyWallet {
+  width: 100%;
+  background-color: #f6f6f6;
+}
+.MyWallet .Header {
+  width: 100%;
+  height: 2.5rem;
+  padding: 0.3rem;
+  box-sizing: border-box;
+  background-image: linear-gradient(239deg, #ff935e 0%, #ff6850 58%, #ff3c41 100%), linear-gradient(#f6f6f6, #f6f6f6);
+  background-blend-mode: normal, 
+            normal;
+  position: relative;
+}
+.MyWallet .Header .detail {
+  width: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 0.24rem;
+  color: #ffffff;
+  position: absolute;
+  top: 0.2rem;
+  right: 0.3rem;
+}
+.MyWallet .Header .detail img {
+  width: 0.29rem;
+  height: 0.35rem;
+}
+.MyWallet .Header .MyMoney {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.MyWallet .Header .MyMoney .MyIcon {
+  width: .8rem;
+  height: .8rem;
+  background-color: #f6f6f6;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: .1rem;
+}
+.MyWallet .Header .MyMoney .MyIcon img {
+  width: .55rem;
+  height: .53rem;
+}
+.MyWallet .Header .MyMoney .Wallet_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.MyWallet .Header .MyMoney .Wallet_text p {
+  font-size: 0.24rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+.MyWallet .Header .MyMoney .Wallet_text span {
+  font-size: 0.4rem;
+  color: #ffffff;
+  margin-top: .2rem;
+}
+.MyWallet .MyPlay {
+  width: 100%;
+  height: 1.6rem;
+  background-color: #ffffff;
+}
+.MyWallet .MyPlay .balance {
+  width: 100%;
+  height: .8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .24rem;
+  color: #333333;
+  padding: 0 .3rem;
+  box-sizing: border-box;
+  border-bottom: 0.01rem solid #f6f6f6;
+}
+.MyWallet .MyPlay .balance .balance_item {
+  display: flex;
+  align-items: center;
+}
+.MyWallet .MyPlay .balance .balance_item img {
+  width: .16rem;
+  height: .3rem;
+  color: #cccccc;
+}
+.MyWallet .MyPlay .balance .balance_item span {
+  margin-right: 0.2rem;
+}
+.MyWallet .record {
+  width: 100%;
+  margin-top: 0.3rem;
+  background-color: #ffffff;
+}
+.MyWallet .record .balance {
+  width: 100%;
+  height: .8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .24rem;
+  color: #333333;
+  padding: 0 .3rem;
+  box-sizing: border-box;
+  border-bottom: 0.01rem solid #f6f6f6;
+}
+.MyWallet .record .balance .balance_item {
+  display: flex;
+  align-items: center;
+}
+.MyWallet .record .balance .balance_item img {
+  width: .16rem;
+  height: .3rem;
+  color: #cccccc;
+}
+.MyWallet .record .balance .balance_item span {
+  margin-right: 0.2rem;
+}
+.MyWallet .SetPlay {
+  width: 100%;
+  margin-top: 0.3rem;
+  background-color: #ffffff;
+}
+.MyWallet .SetPlay .balance {
+  width: 100%;
+  height: .8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .24rem;
+  color: #333333;
+  padding: 0 .3rem;
+  box-sizing: border-box;
+  border-bottom: 0.01rem solid #f6f6f6;
+}
+.MyWallet .SetPlay .balance .balance_item {
+  display: flex;
+  align-items: center;
+}
+.MyWallet .SetPlay .balance .balance_item img {
+  width: .16rem;
+  height: .3rem;
+  color: #cccccc;
+}
+.MyWallet .SetPlay .balance .balance_item span {
+  margin-right: 0.2rem;
+}

@@ -1,0 +1,14 @@
+.TopWay .van-dialog__confirm {
+  color: #fff;
+}
+.TopWay .van-dialog__confirm:before {
+  opacity: 1;
+  background: linear-gradient(0deg, #fe4a03 0%, #ffa810 100%), linear-gradient(#ffff00, #ffff00);
+  background-blend-mode: normal, 
+            normal;
+  border-radius: 0.04rem;
+  color: #fff;
+}
+.TopWay .van-dialog__confirm .van-button__text {
+  position: relative;
+}

@@ -1,0 +1,222 @@
+.personalCenter{
+    background-color: #F6F6F6;
+}
+.Header{
+    width: 100%;
+    height: 3rem;
+    background-image: linear-gradient(0deg, 
+		#f59829 0%, 
+		#ffb64e 49%, 
+		#f2ce25 100%), 
+	linear-gradient(
+		#707070, 
+		#707070);
+	background-blend-mode: normal, 
+        normal;
+        padding: 0.3rem 0.3rem 0.9rem 0.3rem;
+        box-sizing: border-box;
+        position: relative;
+}
+.set{
+    font-family: PingFang-SC-Medium;
+	font-size: 0.24rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.set img{
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-right: 0.08rem;
+}
+.Head{
+    width: 1.4rem;
+	height: 1.4rem;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+.Head img{
+    width: 1.4rem;
+    height: 1.4rem;
+    display: block;
+}
+.Name{
+    font-family: PingFang-SC-Medium;
+	font-size: 0.3rem;
+	line-height: 0.2rem;
+    color: #ffffff;
+    padding: 0.15rem;
+    box-sizing: border-box;
+    float: left;
+}
+.Name p{
+    margin-bottom: 0.08rem;
+}
+.Name p:nth-of-type(2){
+    font-size: 0.2rem;
+}
+.Name div{
+    width: 1.28rem;
+    height: 0.3rem;
+    background-color: #ffffff;
+	border-radius: 15px;
+    text-align: center;
+    font-family: PingFang-SC-Medium;
+	font-size: 0.2rem;
+	line-height: 0.3rem;
+    color: #ffc000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.level img{
+    width: 0.24rem;
+    height: 0.24rem;
+}
+.money_left,.money_right{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-family: PingFang-SC-Heavy;
+	font-size: 0.36rem;
+    color: #ffffff;
+    padding: 0.3rem 0.2rem;
+    box-sizing: border-box;
+}
+.money_left{
+    border-right: 0.01rem solid #eeeeee;
+}
+.left_item{
+    font-size: 0.2rem;
+    color: #d601c9;
+    border-bottom: 0.01rem solid #d601c9;
+}
+.right_item{
+    color: #f00101;
+    border-bottom: 0.01rem solid #f00101;
+}
+.money{
+    display: flex;
+    justify-content: flex-end;
+}
+.Myorder{
+    width: 6.9rem;
+	height: 1.99rem;
+	background-color: #ffffff;
+    border-radius: 0.2rem;
+    position: absolute;
+    top: 2.65rem;
+    left: 0.3rem;
+    padding: 0.3rem;
+    box-sizing: border-box;
+}
+.order_header{
+    width: 100%;
+    height: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.01rem solid #eeeeee;
+    font-family: PingFang-SC-Medium;
+	font-size: 0.24rem;
+	line-height:0.36rem;
+	color: #333333;
+}
+.order_more{
+    color: #999999;
+}
+.order_more img{
+    width: 0.11rem;
+    height: 0.21rem;
+}
+.order_record{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.12rem;
+    box-sizing: border-box;
+}
+.record_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.24rem;
+    color: #999999;
+}
+.record_item img{
+    width: 0.54rem;
+    height: 0.54rem;
+    margin-bottom: 0.2rem;
+}
+.operation{
+    width: 100%;
+    margin-top: 2rem;
+    background-color: #ffffff;
+}
+.operationBox{
+    display: flex;
+    justify-content: flex-start;
+}
+.operation_item{
+    width: 2.5rem;
+    height: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    border-bottom: 0.01rem solid #eeeeee;
+    border-right: 0.01rem solid #eeeeee;
+    font-size: 0.24rem;
+    color: #333333;
+}
+.operation_item div{
+    width: 0.7rem;
+    height: 0.65rem;
+    background-size: 100% 100%;
+}
+.operation_item span:nth-of-type(2){
+    font-size: 0.22rem;
+    color: #ff0202;
+}
+.item_cart{
+     background: url(../images/person/icon_mycart.png) no-repeat;
+    
+}
+.item_wallet{
+    background: url(../images/person/icon_mywallet.png) no-repeat;
+}
+.item_card{
+    background: url(../images/person/icon_Card.png) no-repeat;
+}
+.item_friend{
+    background: url(../images/person/icon_friends.png) no-repeat;
+}
+.item_team{
+    background: url(../images/person/icon_myteam.png) no-repeat;
+}
+.item_givi{
+    background: url(../images/person/icon_giving.png) no-repeat;
+}
+.item_live{
+    background: url(../images/person/icon_mylive.png) no-repeat;
+}
+.item_seller{
+    background: url(../images/person/icon_seller.png) no-repeat;
+}
+.item_help{
+    background: url(../images/person/icon_help.png) no-repeat;
+}
+.Footer{
+    width: 100%;
+    height: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.24rem;
+}
+.Footer div{
+    width: 0.05rem;
+    border: 0.01rem solid #eeeeee;
+}

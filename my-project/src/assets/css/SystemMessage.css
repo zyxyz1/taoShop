@@ -1,0 +1,41 @@
+
+.SystemMessage {
+    background-color: #F6F6F6;
+}
+.Message{
+    width: 6.9rem;
+    margin: 0 auto;
+    padding: 0.2rem 0;
+    box-sizing: border-box;
+
+}
+.Message_Time{
+    width: 1.8rem;
+    height: 0.3rem;
+    background-color: #cccccc;
+    border-radius: 0.04rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.2rem;
+    color: #ffffff;
+    text-align: center;
+    display:block;
+    margin: 0 auto;
+}
+.Message_Text{
+    width: 6.9rem;
+    background-color: #ffffff;
+    margin-top: 0.3rem;
+    font-size: 0.24rem;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    line-height: 0.4rem;
+}
+.Message_Name{
+    font-family: PingFang-SC-Heavy;
+    font-size:0.24rem;
+    color: #333333;
+}
+.Message_content{
+    font-size: 0.24rem;
+    color: #999999;
+}

@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  background-color: #F6F6F6;
+}
+html .DDSearch,
+body .DDSearch {
+  width: 100%;
+}
+html .DDSearch .Header,
+body .DDSearch .Header {
+  width: 100%;
+  height: 1rem;
+  margin: 0 auto;
+  margin-top: 0.3rem;
+  background-color: #ffffff;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html .DDSearch .Header img,
+body .DDSearch .Header img {
+  width: 0.3rem;
+  height: 0.3rem;
+  position: absolute;
+  left: 3.3rem;
+  top: 0.35rem;
+}
+html .DDSearch .Header input,
+body .DDSearch .Header input {
+  display: block;
+  width: 6.9rem;
+  height: 0.7rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 0.22rem;
+  border-radius: 0.3rem;
+  border: solid 1px #dddddd;
+  color: #999;
+  -web-kit-appearance: none;
+  -moz-appearance: none;
+  outline: 0;
+  padding-left: 0.6rem;
+  text-decoration: none;
+  background-color: #f6f6f6;
+}
+html .DDSearch .Header input[type="text"]:focus,
+body .DDSearch .Header input[type="text"]:focus {
+  border: 1px solid #ff7496;
+}
+html .DDSearch .species,
+body .DDSearch .species {
+  width: 100%;
+  height: 0.7rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.24rem;
+  color: #333333;
+}
+html .DDSearch .species .species_item img,
+body .DDSearch .species .species_item img {
+  width: 0.16rem;
+  height: 0.14rem;
+  background-color: #999999;
+}
+html .DDSearch .Goods_list,
+body .DDSearch .Goods_list {
+  width: 6.9rem;
+  margin: 0 auto;
+  margin-top: 0.2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+html .DDSearch .Goods_list .list_Img,
+body .DDSearch .Goods_list .list_Img {
+  width: 3.4rem;
+  height: 4.47rem;
+  padding: 0.2rem 0.43rem;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin-top: 0.15rem;
+}
+html .DDSearch .Goods_list .list_Img .backimg,
+body .DDSearch .Goods_list .list_Img .backimg {
+  width: 2.53rem;
+  height: 2.57rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+html .DDSearch .Goods_list .list_Img .Goods_Text,
+body .DDSearch .Goods_list .list_Img .Goods_Text {
+  height: 0.6rem;
+  font-size: 0.24rem;
+  color: #333333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+html .DDSearch .Goods_list .list_Img .Goods_footer,
+body .DDSearch .Goods_list .list_Img .Goods_footer {
+  padding: 0.15rem 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html .DDSearch .Goods_list .list_Img .Goods_footer .Goods_price,
+body .DDSearch .Goods_list .list_Img .Goods_footer .Goods_price {
+  font-size: 0.24rem;
+}
+html .DDSearch .Goods_list .list_Img .Goods_footer .Goods_price .price,
+body .DDSearch .Goods_list .list_Img .Goods_footer .Goods_price .price {
+  font-size: 0.3rem;
+  color: #ff0000;
+}
+html .DDSearch .Goods_list .list_Img .Goods_footer .Goods_price .price_item,
+body .DDSearch .Goods_list .list_Img .Goods_footer .Goods_price .price_item {
+  font-size: 0.2rem;
+  color: #999999;
+  text-decoration: line-through;
+}
+html .DDSearch .Goods_list .list_Img .Goods_footer .Cart_img,
+body .DDSearch .Goods_list .list_Img .Goods_footer .Cart_img {
+  width: 0.58rem;
+  height: 0.58rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}

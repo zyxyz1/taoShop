@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  html,
+  body {
+    height: 100%;
+    font-family: SimHei;
+    background-color:#F6F6F6;
+    .Header{
+        width: 100%;
+        height: .8rem;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div{
+            width: 50%;
+            height: .8rem;
+            font-size: .24rem;
+            color: #666666;
+            text-align: center;
+            line-height: .8rem;
+        }
+    }
+    .Collect{
+        width: 100%;
+        .Collect_item{
+            width: 100%;
+            height: 1.7rem;
+            background-color: #fff;
+            padding: 0 .3rem;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.2rem;
+            .item_img{
+                width: 1.3rem;
+                height: 1.3rem;
+                background-size: contain;
+                background-repeat: no-repeat;
+                border: 0.01rem solid red;
+                // margin-right: .3rem;
+            }
+            .item_text{
+                height: 1.7rem;
+                font-size: .24rem;
+                color: #333333;
+                display: flex;
+                flex-direction: column;
+                padding:.2rem 0rem;
+                box-sizing: border-box;
+                .text_name{
+                    margin-bottom: 0.3rem;
+                }
+                .Collect_money{
+                    display: flex;
+                    justify-content: flex-start;
+                    .item_now{
+                        color: #ff0000;
+                        margin-right: 0.2rem;
+                    }
+                    .item_ago{
+                        color: #999999;
+                        text-decoration:line-through;
+                    }
+                }
+            }
+            .delect{
+                float: right;
+                img{
+                    width: .5rem;
+                    height: .5rem;
+                }
+            }
+        }
+    }
+  }

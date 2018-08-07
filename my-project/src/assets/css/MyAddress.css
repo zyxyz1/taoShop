@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+}
+.MyAddress{
+    width: 7.5rem;
+    background-color: #F6F6F6;
+}
+.Address{
+    width: 7.3rem;
+    height: 1.85rem;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    margin-bottom: 0.2rem;
+}
+.MyData{
+    font-family: PingFang-SC-Medium;
+	font-size: 0.28rem;
+    color: #333333;
+    margin-bottom: 0.2rem;
+}
+.MyData span:nth-of-type(3){
+    margin-left: 0.5rem;
+}
+.detailed{
+    display: flex;
+    justify-content: space-between;
+    font-family: FZLTHK--GBK1-0;
+	font-size: 0.24rem;
+    color: #333333;
+    margin-bottom: 0.1rem;
+}
+.default{
+    font-family: PingFang-SC-Medium;
+	font-size: 0.22rem;
+	color: #ffa800;
+}
+.reverse{
+    color: #cccccc;
+}
+.AddEdit{
+    width: 6.9rem;
+	height: 0.88rem;
+	background-image: linear-gradient(0deg, 
+		#fe4a03 0%, 
+		#ffa810 100%), 
+	linear-gradient(
+		#ef1c20, 
+		#ef1c20);
+	background-blend-mode: normal, 
+		normal;
+    border-radius: 0.44rem;
+    margin: 0 auto;
+    font-family: PingFang-SC-Medium;
+	font-size: 0.3rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.88rem;
+}

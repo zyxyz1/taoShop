@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  font-family: SimHei;
+  background-color: #F6F6F6;
+}
+html .Header,
+body .Header {
+  width: 100%;
+  height: .8rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html .Header div,
+body .Header div {
+  width: 50%;
+  height: .8rem;
+  font-size: .24rem;
+  color: #666666;
+  text-align: center;
+  line-height: .8rem;
+}
+html .Collect,
+body .Collect {
+  width: 100%;
+}
+html .Collect .Collect_item,
+body .Collect .Collect_item {
+  width: 100%;
+  height: 1.7rem;
+  background-color: #fff;
+  padding: 0 .3rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.2rem;
+}
+html .Collect .Collect_item .item_img,
+body .Collect .Collect_item .item_img {
+  width: 1.3rem;
+  height: 1.3rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 0.01rem solid red;
+}
+html .Collect .Collect_item .item_text,
+body .Collect .Collect_item .item_text {
+  height: 1.7rem;
+  font-size: .24rem;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  padding: .2rem 0rem;
+  box-sizing: border-box;
+}
+html .Collect .Collect_item .item_text .text_name,
+body .Collect .Collect_item .item_text .text_name {
+  margin-bottom: 0.3rem;
+}
+html .Collect .Collect_item .item_text .Collect_money,
+body .Collect .Collect_item .item_text .Collect_money {
+  display: flex;
+  justify-content: flex-start;
+}
+html .Collect .Collect_item .item_text .Collect_money .item_now,
+body .Collect .Collect_item .item_text .Collect_money .item_now {
+  color: #ff0000;
+  margin-right: 0.2rem;
+}
+html .Collect .Collect_item .item_text .Collect_money .item_ago,
+body .Collect .Collect_item .item_text .Collect_money .item_ago {
+  color: #999999;
+  text-decoration: line-through;
+}
+html .Collect .Collect_item .delect,
+body .Collect .Collect_item .delect {
+  float: right;
+}
+html .Collect .Collect_item .delect img,
+body .Collect .Collect_item .delect img {
+  width: .5rem;
+  height: .5rem;
+}

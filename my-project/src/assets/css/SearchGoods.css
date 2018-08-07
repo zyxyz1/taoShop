@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.SHeader{
+    padding: 0.3rem;
+    /*box-sizing: border-box;*/
+    background-color: #ffffff;
+
+}
+.Search_Goods,.SearchGoods{
+    width: 7.5rem;
+    margin: 0 auto;
+    background-color: #F6F6F6;
+}
+.searchBox{
+    position: relative;
+    width: 6.27rem;
+    height: 0.6rem;
+    display: flex;
+    justify-content: flex-start
+}
+.searchBox input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size:0.22rem;
+    border-radius:0.3rem;
+    border: solid 1px #dddddd;
+    color:#ccc;
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+    outline:0;
+    padding-left: 0.6rem;
+    text-decoration:none;
+    background-color: #f6f6f6;
+}
+.searchBox input[type="text"]:focus{
+    border:1px solid #ff7496;
+}
+.searchBox img{
+    position: absolute;
+    left: 0.2rem;
+    top: 0.15rem;
+    width: 0.3rem;
+}
+.searchBox span{
+    display: block;
+    width: 0.8rem;
+    height: 0.3rem;
+    text-align: center;
+    line-height: 0.6rem;
+    font-size: 0.22rem;
+    color: #999999;
+}
+.Search_Heard{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ffffff;
+}
+.Search_species{
+    width: 3.75rem;
+    font-size: 0.24rem;
+    text-align: center;
+
+}
+.Search_species span{
+    font-family: PingFang-SC-Medium;
+    font-size: 0.24rem;
+    color: #ffa800;
+}
+.Search_D span{
+    font-family: PingFang-SC-Medium;
+    font-size: 0.24rem;
+    color: #333333;
+}
+.species{
+    width: 3.75rem;
+    height: 0.02rem;
+    background-color: #ffa800;
+    margin-top: 0.3rem;
+}
+.Nochoose{
+    background-color: #F6F6F6;
+}
+.Goods_category{
+    width: 7.5rem;
+    height: 0.8rem;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 0.01rem solid #cccccc;
+    background-color: #ffffff;
+    margin-bottom: 0.3rem;
+}
+.category{
+    width: 2.5rem;
+    height: 0.8rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.24rem;
+    color: #999999;
+    text-align: center;
+    line-height: 0.8rem;
+}
+.GoodsImg{
+    width: 7rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:  wrap;
+    font-size: 0.24rem;
+}
+.ImgD{
+    width: 3.4rem;
+    height: 4.47rem;
+    background-color: #ffffff;
+    padding: 0.1rem 0.53rem 0 0.34rem;
+    box-sizing: border-box;
+    margin-bottom: 0.1rem;
+}
+.ImgD img{
+    width: 2.53rem;
+    height: 2.57rem;
+}
+.ImgD span{
+    font-size: 0.24rem;
+    line-height: 0.3rem;
+    font-family: PingFang-SC-Medium;
+    color: #333333;
+}
+.ImgFooter{
+    padding: 0.15rem 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+}
+.GoodsPrice{
+    width: 2rem;
+    height: 0.8rem;
+}
+.GoodsPrice .Price{
+    font-family: PingFang-SC-Medium;
+    font-size: 0.3rem;
+    padding: 0.2rem 0;
+    box-sizing: border-box;
+    color: #ff0000;
+}
+hr{
+    width: 1.16rem;
+    position: absolute;
+    top: 0.55rem;
+}
+.GoodsPrice .YearPrice{
+    font-family: PingFang-SC-Medium;
+    font-size: 0.2rem;
+    color: #999999;
+}
+.AddCart img{
+    width: 0.58rem;
+    height: 0.58rem;
+}

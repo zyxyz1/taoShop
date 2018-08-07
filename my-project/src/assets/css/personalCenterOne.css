@@ -1,0 +1,162 @@
+.personalCenter{
+    background-color: #F6F6F6;
+}
+.Header{
+    width: 100%;
+    height: 3rem;
+    background-image: linear-gradient(0deg, 
+		#f59829 0%, 
+		#ffb64e 49%, 
+		#f2ce25 100%), 
+	linear-gradient(
+		#707070, 
+		#707070);
+	background-blend-mode: normal, 
+        normal;
+        padding: 0.7rem 0.3rem 0.9rem 0.3rem;
+        box-sizing: border-box;
+        position: relative;
+}
+.Head{
+    width: 1.4rem;
+	height: 1.4rem;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+.Head img{
+    width: 1.4rem;
+    height: 1.4rem;
+    display: block;
+}
+.Name{
+    font-family: PingFang-SC-Medium;
+	font-size: 0.3rem;
+	line-height: 0.36rem;
+    color: #ffffff;
+    padding: 0.15rem;
+    box-sizing: border-box;
+    float: left;
+}
+.Name p:nth-of-type(2){
+    font-size: 0.2rem;
+}
+.Name div{
+    width: 1.13rem;
+    height: 0.3rem;
+    background-color: #ffffff;
+	border-radius: 15px;
+    text-align: center;
+    font-family: PingFang-SC-Medium;
+	font-size: 0.2rem;
+	line-height: 0.3rem;
+	color: #ffc000;
+}
+.money{
+    float: right;
+    margin-right: 0.5rem;
+    padding: 0.15rem;
+    box-sizing: border-box;
+}
+.number{
+    font-family: PingFang-SC-Heavy;
+	font-size: 0.3rem;
+	line-height: 0.36rem;
+	color: #ffffff;
+}
+.number_name{
+    font-family: PingFang-SC-Medium;
+	font-size: 0.2rem;
+	line-height: 0.36rem;
+    color: #ff0937;
+    text-align: center;
+}
+.Myorder{
+    width: 6.9rem;
+	height: 1.99rem;
+	background-color: #ffffff;
+    border-radius: 0.2rem;
+    position: absolute;
+    top: 2.65rem;
+    left: 0.3rem;
+    padding: 0.3rem;
+    box-sizing: border-box;
+}
+.order_header{
+    width: 100%;
+    height: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.01rem solid #eeeeee;
+    font-family: PingFang-SC-Medium;
+	font-size: 0.24rem;
+	line-height:0.36rem;
+	color: #333333;
+}
+.order_more{
+    color: #999999;
+}
+.order_more img{
+    width: 0.11rem;
+    height: 0.21rem;
+}
+.order_record{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.12rem;
+    box-sizing: border-box;
+}
+.record_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.24rem;
+    color: #999999;
+}
+.record_item img{
+    width: 0.54rem;
+    height: 0.54rem;
+    margin-bottom: 0.2rem;
+}
+.operation{
+    width: 100%;
+    height: 3.2rem;
+    background-color: #ffffff;
+    margin-top: 2rem;
+}
+.operation_item{
+    width: 100%;
+    height: 0.8rem;
+    border-bottom: 0.01rem solid #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding:0 0.3rem;
+    box-sizing: border-box;
+    font-size: 0.24rem;
+    color: #333333;
+    font-family: PingFang-SC-Medium;
+}
+.operation_item img{
+    width: 0.4rem;
+    height: 0.35rem;
+    margin-right: 0.2rem;
+}
+.especially{
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+}
+.especially_item{
+    height: 0.8rem;
+    border-bottom: 0.01rem solid #eeeeee;
+    padding-left: 0.9rem;
+    line-height: 0.8rem;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.24rem;
+	color: #333333;
+}
+.especially_item:last-of-type{
+    border: 0;
+}

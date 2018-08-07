@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  font-family: SimHei;
+}
+.success {
+  font-size: .3rem;
+  color: #ff8125;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2.5rem;
+}
+.success img {
+  width: 2.43rem;
+  height: 2.48rem;
+  margin-bottom: 0.3rem;
+}
+.Suer {
+  width: 5.7rem;
+  height: .6rem;
+  background-image: linear-gradient(0deg, #fe4a03 0%, #ffa810 100%), linear-gradient(#ffff00, #ffff00);
+  background-blend-mode: normal, 
+		normal;
+  border-radius: 0.3rem;
+  font-size: .3rem;
+  line-height: 0.6rem;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-top: 1rem;
+}

@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  background-color: #F6F6F6;
+  font-family: SimHei;
+}
+html .ShoppingCart,
+body .ShoppingCart {
+  width: 100%;
+}
+html .ShoppingCart .Header,
+body .ShoppingCart .Header {
+  width: 7.5rem;
+  height: 1rem;
+  font-size: 0.24rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 0.3rem;
+  box-sizing: border-box;
+}
+html .ShoppingCart .Header .Name,
+body .ShoppingCart .Header .Name {
+  font-size: 0.24rem;
+  color: #333333;
+}
+html .ShoppingCart .Header .Header_item,
+body .ShoppingCart .Header .Header_item {
+  display: flex;
+  justify-content: flex-start;
+}
+html .ShoppingCart .Header .Header_item .item_move,
+body .ShoppingCart .Header .Header_item .item_move {
+  width: 1.5rem;
+  height: 0.6rem;
+  border-radius: 0.3rem;
+  border: solid 0.01rem #ffa800;
+  text-align: center;
+  line-height: 0.6rem;
+  color: #ffa800;
+  margin-right: 0.2rem;
+}
+html .ShoppingCart .Header .Header_item .item_delete,
+body .ShoppingCart .Header .Header_item .item_delete {
+  width: 1.5rem;
+  height: 0.6rem;
+  border-radius: 0.3rem;
+  border: solid 0.01rem #ff0000;
+  text-align: center;
+  line-height: 0.6rem;
+  color: #ff0000;
+}
+html .ShoppingCart .GoodsBox,
+body .ShoppingCart .GoodsBox {
+  width: 7.3rem;
+  height: 1.89rem;
+  margin: 0 auto;
+  margin-top: 0.3rem;
+  background-color: #ffffff;
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+html .ShoppingCart .GoodsBox .Goods_choose,
+body .ShoppingCart .GoodsBox .Goods_choose {
+  display: flex;
+  align-items: center;
+}
+html .ShoppingCart .GoodsBox .Goods_choose img,
+body .ShoppingCart .GoodsBox .Goods_choose img {
+  width: 0.3rem;
+  height: 0.3rem;
+}
+html .ShoppingCart .GoodsBox .Goods_img,
+body .ShoppingCart .GoodsBox .Goods_img {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 0.2rem;
+}
+html .ShoppingCart .GoodsBox .Goods_text,
+body .ShoppingCart .GoodsBox .Goods_text {
+  width: 4.8rem;
+}
+html .ShoppingCart .GoodsBox .Goods_text .item_text,
+body .ShoppingCart .GoodsBox .Goods_text .item_text {
+  width: 4.8rem;
+  height: 0.6rem;
+  font-size: 0.24rem;
+  color: #333333;
+}
+html .ShoppingCart .GoodsBox .Goods_text .item_page,
+body .ShoppingCart .GoodsBox .Goods_text .item_page {
+  font-size: 0.24rem;
+  color: #999999;
+}
+html .ShoppingCart .GoodsBox .Goods_text .item_price,
+body .ShoppingCart .GoodsBox .Goods_text .item_price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.3rem;
+}
+html .ShoppingCart .GoodsBox .Goods_text .item_price .price,
+body .ShoppingCart .GoodsBox .Goods_text .item_price .price {
+  color: #ff0000;
+}
+html .ShoppingCart .GoodsBox .Goods_text .item_price .item_number,
+body .ShoppingCart .GoodsBox .Goods_text .item_price .item_number {
+  font-size: 0.3rem;
+  color: #333333;
+}
+html .ShoppingCart .GoodsBox .Goods_text .item_price .item_number img,
+body .ShoppingCart .GoodsBox .Goods_text .item_price .item_number img {
+  width: 0.46rem;
+  height: 0.46rem;
+}
+html .ShoppingCart .GoodsBox .Goods_text .item_price .item_number span,
+body .ShoppingCart .GoodsBox .Goods_text .item_price .item_number span {
+  height: 0.46rem;
+  line-height: 0.46rem;
+}
+html .ShoppingCart .ShoopFooter,
+body .ShoppingCart .ShoopFooter {
+  width: 100%;
+  height: 0.97rem;
+  position: fixed;
+  bottom: 0;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+}
+html .ShoppingCart .ShoopFooter .AllPrice,
+body .ShoppingCart .ShoopFooter .AllPrice {
+  width: 4.5rem;
+  height: 0.97rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 0.3rem;
+  box-sizing: border-box;
+}
+html .ShoppingCart .ShoopFooter .AllPrice .Choose_goods,
+body .ShoppingCart .ShoopFooter .AllPrice .Choose_goods {
+  font-size: 0.3rem;
+  color: #999999;
+}
+html .ShoppingCart .ShoopFooter .AllPrice .Choose_goods img,
+body .ShoppingCart .ShoopFooter .AllPrice .Choose_goods img {
+  width: 0.3rem;
+  height: 0.3rem;
+  margin-right: 0.3rem;
+}
+html .ShoppingCart .ShoopFooter .AllPrice .Choose_price,
+body .ShoppingCart .ShoopFooter .AllPrice .Choose_price {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 0.24rem;
+}
+html .ShoppingCart .ShoopFooter .AllPrice .Choose_price .all,
+body .ShoppingCart .ShoopFooter .AllPrice .Choose_price .all {
+  color: #333333;
+}
+html .ShoppingCart .ShoopFooter .AllPrice .Choose_price .allprice,
+body .ShoppingCart .ShoopFooter .AllPrice .Choose_price .allprice {
+  font-size: 0.3rem;
+  color: #ff0000;
+}
+html .ShoppingCart .ShoopFooter .BuyNow,
+body .ShoppingCart .ShoopFooter .BuyNow {
+  width: 3rem;
+  height: 0.97rem;
+  background-image: linear-gradient(0deg, #fe4a03 0%, #ffa810 100%), linear-gradient(#ef1c20, #ef1c20);
+  background-blend-mode: normal, 
+                    normal;
+  font-size: 0.3rem;
+  line-height: 0.97rem;
+  color: #ffffff;
+  text-align: center;
+}

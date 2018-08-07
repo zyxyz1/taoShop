@@ -1,0 +1,345 @@
+.Hearder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.15rem 0.3rem;
+    background-color: #ffffff;
+}
+.HomePage{
+    background-color: #F6F6F6;
+    font-size: 0.24rem;
+}
+.addressBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addressBox img{
+    width: 0.25rem;
+    margin-left: 0.09rem
+}
+.searchBox{
+    position: relative;
+    width: 4.3rem;
+    height: 0.6rem;
+}
+.searchBox input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size:0.22rem;
+    border-radius:0.3rem;
+    border: solid 1px #dddddd;
+    color:#ccc;
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+    outline:0;
+    padding-left: 0.6rem;
+    text-decoration:none;
+}
+.searchBox input[type="text"]:focus{
+    border:1px solid #ff7496;
+}
+.searchBox img{
+    position: absolute;
+    left: 0.2rem;
+    top: 0.15rem;
+    width: 0.3rem;
+}
+.cartBox img{
+    width: 0.49rem;
+}
+.noticeBox img{
+    width: 0.46rem;
+}
+.text{
+    width: 100%;
+    height: 3rem;
+    overflow: hidden;
+    clear:both;
+}
+.banner{
+    width: 100%;
+    height: 3rem;
+    background-color: #ffffff;
+    
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.classification{
+    box-sizing: border-box;
+    height: 3.85rem;
+    padding: 0.3rem 0.58rem;
+    background-color: #ffffff;
+}
+.classificationBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.classificationBox:nth-of-type(1){
+    padding-bottom: 0.4rem;
+}
+.classification_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.24rem;
+    color: #666;
+}
+.classification_item img{
+    width: 1rem;
+    margin-bottom: 0.2rem;
+}
+.taoLetters{
+    margin: 0.2rem 0;
+    height: 0.8rem;
+    padding: 0.18rem 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+.leterTitle,.DD_title,.Mer_title,.TS_title{
+    width: 0.98rem;
+    height: 0.43rem;
+    line-height: 0.43rem;
+    background-image: linear-gradient(0deg,
+    #ad35f2 0%,
+    #ff26ed 100%),
+    linear-gradient(
+            #ff2222,
+            #ff2222);
+    background-blend-mode: normal,
+    normal;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    color: #fff;
+    font-size: 0.2rem;
+    float: left;
+}
+.leter_content,.DD_content{
+    display: block;
+    height: 0.43rem;
+    line-height: 0.43rem;
+    float: left;
+    margin-left: 0.21rem;
+    color: #ff0000;
+}
+.DD_content{
+    color: #999;
+}
+.DD_mall{
+    clear: both;
+    height: 4rem;
+    padding: 0 0 0.11rem 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+.mallHead{
+    height: 0.8rem;
+    padding: 0.18rem 0;
+    border-bottom: 0.01rem solid #e2e2e2;
+    box-sizing: border-box;
+}
+.DD_title{
+    background-image: linear-gradient(0deg,
+    #ffba4d 0%,
+    #f2de35 100%),
+    linear-gradient(
+            #ffb922,
+            #ffb922);
+    background-blend-mode: normal,
+    normal;
+}
+.TS_title{
+    text-align: center;
+    background-image: linear-gradient(0deg,
+    #ff2731 0%,
+    #ff5abb 100%),
+    linear-gradient(
+            #74da72,
+            #74da72);
+    background-blend-mode: normal,
+    normal;
+}
+.Mer_title{
+    background-image: linear-gradient(0deg,
+    #4d73ff 0%,
+    #955bf5 100%),
+    linear-gradient(
+            #22a9ff,
+            #22a9ff);
+    background-blend-mode: normal,
+    normal;
+}
+.Merchants{
+    margin: 0.2rem 0;
+    padding: 0 0 0.11rem 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+.merchants{
+    display: flex;
+    justify-content: flex-start;
+}
+.merchants_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.24rem;
+    color: #333;
+    padding: 0.3rem 0rem 0.3rem 0.3rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.merchants_img img{
+    width: 2rem;
+    height: 1.4rem;
+}
+.show_more{
+    float: right;
+    height: 0.43rem;
+    margin-right: 0.3rem;
+}
+.show_more span,.show_more img{
+    vertical-align: middle;
+}
+.show_more img{
+    width: 0.11rem;
+}
+.mall_content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+    grid-auto-rows: minmax(1.5rem, auto);
+    width: 6.9rem;
+    margin: 0 auto;
+    padding: 0.1rem 0;
+    box-sizing: border-box;
+}
+.item_mall:nth-of-type(1),.item_mall:nth-of-type(3){
+    border-right: 0.01rem solid #eee;
+    padding-right: 0.5rem;
+    box-sizing: border-box;
+}
+.item_mall:nth-of-type(1),.item_mall:nth-of-type(2){
+    border-bottom: 1px solid #eee;
+}
+.item_mall:nth-of-type(2),.item_mall:nth-of-type(4){
+    padding-left: 0.5rem;
+    padding-right: 0.04rem;
+    box-sizing: border-box;
+}
+.item_mall{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item_mall_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 0.75rem;
+}
+.item_mall img{
+    width: 1.1rem;
+}
+.item_mall_title{
+    color: #333;
+    font-size: 0.24rem;
+}
+.item_mall_content{
+    color: #999;
+    font-size:0.24rem;
+}
+.item_Tao_content{
+    color: #999999;
+    font-size:0.2rem;
+}
+.TaoSpell{
+    background-color: #ffffff;
+}
+.TaoPrice{
+    font-family: SimHei;
+    font-size: 0.3rem;
+    color: #ff0000;
+    line-height: 0.55rem;
+}
+.MercHeader{
+    height: 0.8rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 0.24rem;
+    color: #999999;
+    padding: 0.15rem 0;
+    box-sizing: border-box;
+}
+.rung{
+    width: 0.4rem;
+    height: 0.01rem;
+    background-color: #999999;
+}
+.GoodsImg{
+    width: 6.9rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:  wrap;
+}
+.ImgD{
+    width: 3.4rem;
+    height: 4.47rem;
+    background-color: #ffffff;
+    padding: 0.1rem 0.53rem 0 0.34rem;
+    box-sizing: border-box;
+    margin-bottom: 0.1rem;
+}
+.backimg{
+    width: 2.53rem;
+    height: 2.57rem;
+    background-size: contain;
+}
+.GoodsText{
+    width: 2.83rem;
+    height: 0.9rem;
+    font-size: 0.24rem;
+    color: #333333;
+    text-overflow:ellipsis; 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.ImgFooter{
+    padding: 0.15rem 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+}
+.GoodsPrice{
+    width: 2rem;
+    height: 0.8rem;
+}
+.GoodsPrice .Price{
+    font-family: SimHei;
+    font-size: 0.3rem;
+    padding: 0.2rem 0;
+    box-sizing: border-box;
+    color: #ff0000;
+}
+.GoodsPrice .YearPrice{
+    font-family: SimHei;
+    font-size: 0.2rem;
+    color: #999999;
+    text-decoration: line-through;
+}
+.AddCart img{
+    width: 0.58rem;
+    height: 0.58rem;
+}

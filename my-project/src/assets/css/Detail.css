@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  font-family: SimHei;
+  background-color: #F6F6F6;
+}
+html .Header,
+body .Header {
+  width: 100%;
+  height: .8rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: .24rem;
+  color: #666666;
+}
+html .Header div,
+body .Header div {
+  width: 1.875rem;
+  height: .8rem;
+  line-height: .8rem;
+  text-align: center;
+}
+html .Header div img,
+body .Header div img {
+  width: .3rem;
+  height: .16rem;
+}
+html .Detail_box,
+body .Detail_box {
+  width: 100%;
+  margin-top: .2rem;
+}
+html .Detail_box .Detail_item,
+body .Detail_box .Detail_item {
+  width: 100%;
+  height: 1rem;
+  background-color: #fff;
+  padding: 0.1rem .3rem;
+  box-sizing: border-box;
+  border-bottom: 0.01rem solid #f6f6f6;
+}
+html .Detail_box .Detail_item .Detail_neme,
+body .Detail_box .Detail_item .Detail_neme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .2rem;
+  color: #999999;
+  margin-bottom: .15rem;
+}
+html .Detail_box .Detail_item .Detail_neme .item_name,
+body .Detail_box .Detail_item .Detail_neme .item_name {
+  font-size: .24rem;
+  color: #333;
+}
+html .Detail_box .Detail_item .Detail_neme .item_money,
+body .Detail_box .Detail_item .Detail_neme .item_money {
+  font-size: .28rem;
+  color: #5ac749;
+}
+html .Detail_date,
+body .Detail_date {
+  width: 100%;
+  position: fixed;
+  bottom: .8rem;
+}

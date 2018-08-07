@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  html,
+  body {
+    height: 100%;
+    background-color: #fff;
+    font-family: SimHei;
+  }
+  html .LeaveWord,
+  body .LeaveWord {
+    padding: 0.3rem;
+    box-sizing: border-box;
+  }
+  html .LeaveWord .Header,
+  body .LeaveWord .Header {
+    font-size: 0.24rem;
+    color: #333333;
+  }
+  html .LeaveWord .user_name,
+  body .LeaveWord .user_name {
+    width: 6.9rem;
+    height: 0.8rem;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    margin-bottom: 0.2rem;
+    font-size: 0.24rem;
+  }
+  html .LeaveWord #content,
+  body .LeaveWord #content {
+    width: 6.9rem;
+    height: 3rem;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+    font-size: 0.24rem;
+    padding: 0.2rem;
+    box-sizing: border-box;
+  }
+  html .LeaveWord .SubmitLeave,
+  body .LeaveWord .SubmitLeave {
+    width: 6.9rem;
+    height: 0.8rem;
+    background-image: linear-gradient(0deg, #fe4a03 0%, #ffa810 100%), linear-gradient(#ff3000, #ff3000);
+    background-blend-mode: normal, 
+                  normal;
+    border-radius: 0.4rem;
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+    text-align: center;
+    color: #ffffff;
+  }
+  
